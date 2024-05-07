@@ -1,0 +1,59 @@
+
+body {
+    background-color: lightblue;
+}
+
+
+div.leftmenuinner {
+    position: fixed;
+    top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    width: 20%;
+    background-color: transparent;
+    border: 5px lightblue;
+}
+
+div.manu-option{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div.content {
+    margin-left: 260px; 
+}
+
+div.content-plus{
+    margin-left: 280px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #31a57a;
+    color: white;
+}
+
+tr:nth-child(odd) {background-color: #c5bcbc;} 
+
+tr:nth-child(even) {background-color: #bbb2b2;} 
+/*
+utilizes the :nth-child(even) pseudo-class selector to target every second child <tr> element within a table. 
+This results in applying a background color of #888484, a shade of gray, to these selected rows. 
+By doing so, the rule effectively creates a visual contrast between odd and even rows, enhancing the readability and aesthetics of the table.
+*/
+
+th {
+    text-align: left;
+
+}
