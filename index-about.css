@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: lightblue;
+}
+
+
+div.leftmenuinner {
+    position: fixed;
+    top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    width: 15%;
+    background-image: url(images/manuBAR.png);
+    background-size: cover;
+}
+
+div.MANUoption{
+
+    width: 50%;
+    background-color: lightblue;
+}
+div.main{
+background-color: transparent;
+
+}
+
+div.manu-option{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div.content {
+    margin-left: 15%; 
+}
+
+div.content-plus{
+    margin-left: 16%;
+}
